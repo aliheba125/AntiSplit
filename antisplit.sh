@@ -37,10 +37,6 @@ spinner() {
     fi
 }
 
-# --- Check dependencies ---
-command -v apkeditor >/dev/null 2>&1 || error "apkeditor not found in PATH."
-command -v apksigner >/dev/null 2>&1 || error "apksigner not found in PATH."
-
 # --- Header with figlet (if installed) ---
 if command -v figlet &>/dev/null; then
     figlet -f slant "AntiSplit"
@@ -54,7 +50,7 @@ echo
 
 # --- Input handling ---
 if [ $# -eq 0 ]; then
-    echo "Usage: $0 <input.apks|apkm|xapk>"
+    echo "Usage: antisplit <input.apks|apkm|xapk>"
     exit 1
 fi
 
