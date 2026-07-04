@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # AntiSplit - Merge split APK files and sign them
-# Script by: @termuxvoid
+# Script by: @a1002a
 
 set -e  # Exit on error
 
@@ -36,7 +36,7 @@ error() {
 show_header() {
     figlet -f slant "AntiSplit"
     echo -e "${GREEN}       APK Split Merger auto Signer${NC}"
-    echo -e "${GREEN}                        @termuxvoid${NC}"
+    echo -e "${GREEN}                        @a1002a${NC}"
     echo
 }
 
