@@ -11,7 +11,7 @@ Merge split APK files (APKS, APKM, XAPK) into a single APK and sign it.
 
 ## Installation
 
-From the [TermuxVoid Repo](https://termuxvoid.github.io/) repository:
+From the [TermuxVoid Repo](https://aliheba125.github.io/) repository:
 
 ```bash
 apt update
